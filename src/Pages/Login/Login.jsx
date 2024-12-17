@@ -20,11 +20,13 @@ export default function LoginPage(){
       
       console.log(res.data.type)
 
-      if(res.data.user.type == "customer"){
+      if(res.data.user.type == "Customer"){
         window.location.href = "/"
       }else if(res.data.user.type == "admin"){
         window.location.href = "/admin"
       }
+
+
       
 
     }).catch((err)=>{
