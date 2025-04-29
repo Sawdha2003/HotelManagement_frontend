@@ -1,0 +1,15 @@
+.bg-pic{
+
+    background-image: url('/Images/room.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    
+    
+}

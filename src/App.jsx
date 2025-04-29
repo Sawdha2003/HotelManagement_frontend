@@ -1,8 +1,9 @@
 import './index.css';
 import Homepage from "./Pages/Homepage";
 import Adminpage from './Pages/Admin/Admin-page/Adminpage';
-
+import Test from './Components/test/Test';
 import Login from "./Pages/Login/Login";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path='/categories' element={<Categories/>}/>
         <Route path="/admin" element={<Adminpage />} />
+        <Route path="/test" element={<Test/>}/>
       </Routes>
     </BrowserRouter>
   );
